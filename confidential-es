@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso del Micrófono - Generador de Sonidos Binaurales</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f0f0f0; }
+        h1 { color: #333; }
+        p { line-height: 1.6; }
+        a { color: #0066cc; }
+    </style>
+</head>
+<body>
+    <h1>¿Por qué usamos el micrófono?</h1>
+    <p>La aplicación <strong>Generador de Sonidos Binaurales</strong> utiliza el acceso al micrófono (<code>RECORD_AUDIO</code>) para permitirte grabar los ruidos ambientales de tu entorno. Esta función ayuda a generar un ruido blanco personalizado adaptado a tus necesidades de relajación o concentración.</p>
+    <p><strong>Cómo funciona:</strong> Durante una grabación de 2 segundos, los sonidos captados se analizan localmente para determinar una frecuencia dominante. Esta frecuencia se usa luego para crear un sonido que masque eficazmente los ruidos circundantes. No se almacenan, transmiten ni comparten datos con terceros.</p>
+    <p><strong>Tu control:</strong> Puedes denegar esta permisos en la configuración de tu dispositivo en cualquier momento. Si eliges no otorgarlo, la aplicación continuará funcionando con frecuencias predefinidas.</p>
+    <p>Para más información, consulta nuestra <a href="https://ton-username.github.io/sound-generator-privacy/privacy-policy.html">Política de Privacidad</a>.</p>
+</body>
+</html>
